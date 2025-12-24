@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Openai",
+      "items": [
+        { "name": "Deepseek", "desc": "Deepseek AI Chat", "path": "/api/deepseek?text=", "params": ["text"] },
+        { "name": "Openai", "desc": "OpenAI GPT Chat", "path": "/api/openai?text=", "params": ["text"] }
+      ]
+    },
+    {
+      "name": "Downloader",
+      "items": [
+        { "name": "Capcut", "desc": "Capcut Video Downloader", "path": "/api/capcut?url=", "params": ["url"] },
+        { "name": "Facebook", "desc": "Facebook Video Downloader", "path": "/api/facebook?url=", "params": ["url"] }
+      ]
+    }
+  ]
+}
