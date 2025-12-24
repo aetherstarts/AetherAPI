@@ -1,32 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>404 - Not Found</title>
-        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-        <style>
-            * { color: #333; }
-            body, html {
-                height: 100%;
-                margin: 0;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background-color: white;
-            }
-            .bg-divider { background-color: #333; }
-            .w-divider { width: 1px; }
-        </style>
-    </head>
-    <body class="font-sans antialiased text-center">
-        <div class="flex flex-col items-center justify-center h-screen">
-            <div class="flex h-10 items-center space-x-4">
-                <h1 class="text-4xl font-bold">404</h1>
-                <div class="shrink-0 bg-divider h-full w-divider" role="separator"></div>
-                <h2 class="text-xl font-medium">Page Not Found-!!</h2>
-            </div>
-            <a href="/" class="mt-8 text-blue-600 font-semibold hover:underline">Kembali ke Beranda</a>
-        </div>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Not Found</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body { background-color: white; color: #333; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+        .divider { background-color: #333; width: 1px; height: 40px; margin: 0 20px; }
+    </style>
+</head>
+<body>
+    <div class="flex items-center">
+        <h1 class="text-4xl font-bold">404</h1>
+        <div class="divider"></div>
+        <h2 class="text-xl font-medium">Page Not Found-!!</h2>
+    </div>
+</body>
 </html>
